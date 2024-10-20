@@ -1,6 +1,4 @@
-# blue-moon
-
-A dark color scheme for Neovim derived from palenight and carbonight
+# rider-greens
 
 ## Notices
 
@@ -12,10 +10,10 @@ A dark color scheme for Neovim derived from palenight and carbonight
 Using packer:
 ```lua
 use {
-  "kyazdani42/blue-moon",
+  "johnphillips114/rider-greens",
   config = function()
     vim.opt.termguicolors = true
-    vim.cmd "colorscheme blue-moon"
+    vim.cmd "colorscheme rider-greens"
   end
 }
 ```
@@ -24,7 +22,7 @@ use {
 
 To configure lightline, add the following line:
 ```vim
-let g:lightline = { 'colorscheme': 'blue-moon' }
+let g:lightline = { 'colorscheme': 'rider-greens' }
 ```
 
 ## Screenshots
